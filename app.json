@@ -2,9 +2,9 @@
   "expo": {
     "name": "Percentage app",
     "slug": "yo",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/logo-of -logo.png",
+    "icon": "./assets/images/logo-of-logo.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,22 +13,23 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/logo-of -logo.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/images/logo-of-logo.png",
+        "backgroundColor": "#ffffff",
+        "versionCode":2
       },
       "package": "com.sanjayop.yo"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/logo-of -logo.png"
+      "favicon": "./assets/images/logo-of-logo.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/logo-of -logo.png",
+          "image": "./assets/images/logo-of-logo.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"

@@ -4,7 +4,7 @@
     "slug": "Percentage app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/undraw_Access_account_re_8spm.png",
+    "icon": "./assets/images/logo-of -logo.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,7 +13,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/undraw_Mobile_login_re_9ntv.png",
+        "foregroundImage": "./assets/images/logo-of -logo.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.sanjayop.yo"
@@ -21,14 +21,14 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/undraw_welcome_cats_thqn.png"
+      "favicon": "./assets/images/logo-of -logo.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/undraw_welcome_cats_thqn.png",
+          "image": "./assets/images/logo-of -logo.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"

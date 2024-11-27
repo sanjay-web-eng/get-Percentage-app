@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "yo",
-    "slug": "yo",
+    "name": "Percentage app",
+    "slug": "Percentage app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/undraw_Access_account_re_8spm.png",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/undraw_Mobile_login_re_9ntv.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sanjayop.yo"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "1c037656-4a39-448a-9a97-3496d040d46d"
+      }
     }
   }
 }

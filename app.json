@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "yo",
+    "slug": "yo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/undraw_Access_account_re_8spm.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/undraw_Mobile_login_re_9ntv.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/undraw_welcome_cats_thqn.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/undraw_welcome_cats_thqn.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
